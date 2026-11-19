@@ -39,10 +39,8 @@ main {
   padding: 4px 0 15px;
 }
 .brand img {
-  width: 46px;
-  height: 46px;
-  border-radius: 23%;
-  box-shadow: 0 0 0 1px #ffffff24;
+  width: 80px;
+  height: auto;
 }
 .brand b {
   font-size: clamp(18px, 5vw, 22px);
