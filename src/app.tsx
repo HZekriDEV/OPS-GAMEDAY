@@ -486,7 +486,7 @@ function App() {
     <main>
       <div className="brand">
         <img src="/ops-mark.png" alt="OPS" />
-        <b>GAMEDAY</b>
+        <b>GAMEDAY <span>TOOLKIT</span></b>
       </div>
       {id ? (
         <Board key={id} id={id} change={() => show(true)} />

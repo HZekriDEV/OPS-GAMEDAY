@@ -37,15 +37,23 @@ main {
   justify-content: flex-start;
   border-bottom: 1px solid #454545;
   padding: 4px 0 15px;
-  letter-spacing: 0.12em;
 }
 .brand img {
-  width: 42px;
-  height: 42px;
-  object-fit: contain;
+  width: 46px;
+  height: 46px;
+  border-radius: 23%;
+  box-shadow: 0 0 0 1px #ffffff24;
 }
 .brand b {
-  font-size: 19px;
+  font-size: clamp(18px, 5vw, 22px);
+  font-weight: 750;
+  letter-spacing: -0.045em;
+  line-height: 1.1;
+}
+.brand b span {
+  font-weight: 450;
+  color: #c9c9ce;
+  letter-spacing: -0.025em;
 }
 .meet {
   align-items: start;
